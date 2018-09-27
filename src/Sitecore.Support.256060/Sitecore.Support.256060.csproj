@@ -57,8 +57,8 @@
     <Reference Include="System.Configuration" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BreakingLinksForm.cs" />
-    <Compile Include="CleanMultilistField.cs" />
+    <Compile Include="Shell\Applications\Dialogs\BreakingLinks\BreakingLinksForm.cs" />
+    <Compile Include="MultilistField\CleanMultilistField.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
