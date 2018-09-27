@@ -743,7 +743,7 @@ namespace Sitecore.Support.Shell.Applications.Dialogs.BreakingLinks
           htmlTextWriter.Write("</td>");
           htmlTextWriter.Write("<td>");
           htmlTextWriter.Write("<div class=\"scLinkHeader\">");
-          htmlTextWriter.Write(item.GetUIDisplayName());
+          htmlTextWriter.Write(item.DisplayName);
           htmlTextWriter.Write("</div>");
           htmlTextWriter.Write("<div class=\"scLinkDetails\">");
           htmlTextWriter.Write(item.Paths.ContentPath);
